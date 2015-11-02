@@ -148,11 +148,16 @@ h1 {
   font-size: 1.2em;
   margin-bottom: 6px; }
 
-.phone:before {
-  background-image: url(IMG/phone.png); }
+.phone::before {
+  content: "";
+  background: url(IMG/phone.png) no-repeat; }
 
-.phone:before {
-  background-image: url(IMG/email2.png); }
+.email::before {
+  content: "";
+  background: url(IMG/email2.png) no-repeat;
+  height: 20px;
+  width: 30px;
+  float: left; }
 
 .contact-form {
   text-align: center; }
