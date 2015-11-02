@@ -45,13 +45,26 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
 .clearfix {
   overflow: auto; }
 
+h2 {
+  font-size: 2.5em; }
+
+.intro-objective-sec,
+.projects-sec,
+.education-skills-sec,
+.contact-sec {
+  text-align: center; }
+
 nav {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   background: #fff;
-  padding: 7px 0;
+  padding: 10px 0;
   border-bottom: 1px solid black; }
 
 nav ul {
@@ -67,21 +80,19 @@ nav a:link,
 nav a:visited {
   text-decoration: none;
   font-size: 2em;
-  color: #1F18FF; }
+  color: #000; }
 
 nav a:hover {
   color: #FF0012;
   transition: all .6s; }
 
 h1 {
-  font-size: 3.75em;
-  margin: 0 auto;
-  width: 50%;
+  font-size: 5em;
+  text-align: center;
   margin-bottom: 30px; }
 
 .intro-objective-sec {
-  text-align: center;
-  margin-bottom: 30px; }
+  margin-bottom: 60px; }
 
 .alex-pic {
   margin-bottom: 15px;
@@ -91,17 +102,26 @@ h1 {
   width: auto; }
 
 .career-objective {
+  font-size: 1.4em;
+  line-height: 1.3em;
   padding: 0 5px; }
 
 .projects-sec {
-  text-align: center; }
+  margin-bottom: 30px; }
 
 .projects-sec h2 {
-  font-size: 2.5em;
   margin-bottom: 20px; }
 
 .project {
-  margin-bottom: 20px; }
+  margin: 0 auto 20px auto;
+  border: 1px solid #8F978E;
+  border-radius: 5px;
+  width: 95%;
+  padding: 15px 0 25px 0;
+  transition: box-shadow 1.2s; }
+
+.project:hover {
+  box-shadow: 0 0 7px #8F978E; }
 
 .project h3 {
   font-size: 1.6em;
@@ -111,9 +131,67 @@ h1 {
   max-width: 175px;
   max-height: 150px;
   height: auto;
-  width: auto; }
+  width: auto;
+  margin-bottom: 10px; }
 
 .project p {
-  padding: 0 5px; }
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.1em;
+  line-height: 1.3em; }
+
+.contact-sec h2 {
+  margin-bottom: 20px; }
+
+.phone,
+.email {
+  font-size: 1.2em;
+  margin-bottom: 6px; }
+
+.contact-form {
+  text-align: center; }
+
+.form-title {
+  font-size: 1.1em;
+  margin-top: 15px;
+  font-weight: bold; }
+
+.contact-form textarea {
+  display: block;
+  margin: 0 auto;
+  resize: none;
+  margin-top: 5px; }
+
+.form-name-wrap,
+.form-email-wrap,
+.form-message-wrap {
+  margin-top: 10px; }
+
+.contact-form input[type="submit"] {
+  -webkit-appearance: button;
+  margin-top: 15px;
+  font-size: 1.3em;
+  border-radius: 5px;
+  background: #fff;
+  transition: all 1s; }
+
+.contact-form input[type="submit"]:hover {
+  background: #EFF4FF;
+  color: #FF0012;
+  border: 2px solid black;
+  cursor: pointer; }
+
+.education-skills-sec {
+  margin: 40px 0 30px 0; }
+
+@media screen and (min-width: 920px) {
+  .intro-objective-sec {
+    width: 80%;
+    margin: 0 auto 60px auto;
+    text-align: justify; }
+
+  .alex-pic {
+    float: left;
+    margin-right: 10px; } }
 
 /*# sourceMappingURL=style.css.map */

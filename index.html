@@ -24,9 +24,9 @@
 
 	<h1>Alex Ly</h1>
 
-	<section class="intro-objective-sec">
+	<section class="intro-objective-sec clearfix">
 		<img class="alex-pic" src="http://www.alexly-webdev.com/images/alex.jpg" alt="Picture of Alex" />
-		<p class="career-objective">Hello, I am Alex.  As a child, back when I lived in Paris, France, I remember playing on my mother's DOS based computer.  When I moved to the US as an adolescent, I remember first being exposed to the internet, and how it seemed miraculous to be able to pull information instantaneously.  I have always wanted to know how it functions and is built but it seemed too daunting at first.  A few years passed, and I couldn't handle not knowing anymore, so this past year I set out on this journey of learning and have built a strong passion for it. My dream is to be able to pursue this passion in a full stack position that will be continually challenging and allow me to keep growing as a developer.
+		<p class="career-objective">Hello, I am Alex.  When I moved to the US from Paris, France as an adolescent, I remember being exposed to the internet, and how it seemed miraculous to be able to pull up information instantaneously.  I have always wanted to know how it functions and is built but back then it seemed too daunting.  A few years passed, and I couldn't handle not knowing anymore, so this past year I set out on this journey of learning and have built a strong passion for it. My dream is to be able to pursue this passion in a full stack position that will be continually challenging and allow me to keep growing as a developer.
 		</p>
 	</section>
 
@@ -44,29 +44,38 @@
 			<a href="http://alexly-webdev.com/">
 				<img class="project-image" src="IMG/AlexLSite.jpg" alt="Picture of AlexLy-WebDev front page">
 			</a>
-			<p>My main contact page.</p>
+			<p>My previous main contact page.</p>
 		</div>
 	</section>
 
-	<section class="contact">
-		<p class="phone">267-566-3004</p>
-		<p class="email">ABL12582@gmail.com</p>
+	<section class="contact-sec">
+		<h2>Contact Me</h2>
 
-		<form action="index.html" method="POST">
-			<h2>Contact Me:</h2>
-			Name:
-			<br />
-			<input type="text" placeholder="Not presently functional" />
-			<br />
-			Email:
-			<br />
-			<input type="text" placeholder="Not presently functional" />
-			<br />
-			Message:
-			<br />
-			<textarea class="message" cols="50" rows="5" placeholder="Not presently functional"></textarea>
-			<input type="submit" value="Contact Me" />
-		</form>
+		<div class="contact-info-wrap">
+			<p class="phone">Tel: 267-566-3004</p>
+			<p class="email">ABL12582@gmail.com</p>
+
+			<form class="contact-form" action="index.html" method="POST">
+				<p class="form-title">Leave a message:</p>
+
+				<div class="form-name-wrap">
+					<label for="name">Name:</label>
+					<input type="text" id="name" placeholder="Not presently functional" />
+				</div>
+
+				<div class="form-email-wrap">
+					<label for="email">Email:</label>
+					<input type="text" id="email" placeholder="Not presently functional" />
+				</div>
+
+				<div class="form-message-wrap">
+					<label for="message">Message:</label>
+					<textarea id="message" class="message" cols="50" rows="5" placeholder="Not presently functional"></textarea>
+				</div>
+
+				<input type="submit" value="Contact Me" />
+			</form>
+		</div>
 	</section>
 
 	<section class="education-skills-sec">
