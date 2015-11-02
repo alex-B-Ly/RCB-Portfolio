@@ -45,7 +45,75 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.clearfix {
+  overflow: auto; }
+
 nav {
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  background: #fff;
+  padding: 7px 0;
+  border-bottom: 1px solid black; }
+
+nav ul {
+  list-style-type: none;
+  float: right; }
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px; }
+
+nav a,
+nav a:link,
+nav a:visited {
+  text-decoration: none;
+  font-size: 2em;
+  color: #1F18FF; }
+
+nav a:hover {
+  color: #FF0012;
+  transition: all .6s; }
+
+h1 {
+  font-size: 3.75em;
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 30px; }
+
+.intro-objective-sec {
+  text-align: center;
+  margin-bottom: 30px; }
+
+.alex-pic {
+  margin-bottom: 15px;
+  max-width: 140px;
+  max-height: 180px;
+  height: auto;
+  width: auto; }
+
+.career-objective {
+  padding: 0 5px; }
+
+.projects-sec {
+  text-align: center; }
+
+.projects-sec h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px; }
+
+.project {
+  margin-bottom: 20px; }
+
+.project h3 {
+  font-size: 1.6em;
+  margin-bottom: 10px; }
+
+.project-image {
+  max-width: 175px;
+  max-height: 150px;
+  height: auto;
+  width: auto; }
+
+.project p {
+  padding: 0 5px; }
 
 /*# sourceMappingURL=style.css.map */
