@@ -148,6 +148,12 @@ h1 {
   font-size: 1.2em;
   margin-bottom: 6px; }
 
+.phone:before {
+  background-image: url(IMG/phone.png); }
+
+.phone:before {
+  background-image: url(IMG/email2.png); }
+
 .contact-form {
   text-align: center; }
 
