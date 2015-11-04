@@ -94,7 +94,7 @@ nav a:hover {
   transition: all .6s; }
 
 h1 {
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   font-weight: bold;
   font-size: 5em;
   text-align: center;
@@ -119,8 +119,9 @@ h1 {
   margin-bottom: 30px; }
 
 .projects-sec h2 {
-  font-family: 'Lora', serif;
-  margin-bottom: 20px; }
+  font-family: "Lora", serif;
+  margin-bottom: 25px;
+  font-size: 3.2em; }
 
 .project {
   margin: 0 auto 20px auto;
@@ -150,37 +151,51 @@ h1 {
   margin: 0 auto;
   font-size: 1.1em;
   line-height: 1.3em;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 .desktop-title {
   display: none; }
 
 .contact-sec h2 {
-  margin-bottom: 20px; }
+  font-size: 3em;
+  margin: 60px 0 20px 0; }
 
 .phone,
 .email {
-  font-size: 1.2em;
-  margin-bottom: 6px; }
+  font-size: 1.4em;
+  margin-bottom: 12px; }
 
 .contact-form {
   text-align: center; }
 
 .form-title {
-  font-size: 1.1em;
-  margin-top: 15px;
+  font-size: 1.4em;
+  margin-top: 25px;
   font-weight: bold; }
+
+.contact-form label {
+  font-size: 1.3em; }
+
+.contact-form textarea,
+.contact-form input {
+  outline: none; }
 
 .contact-form textarea {
   display: block;
   margin: 0 auto;
   resize: none;
-  margin-top: 5px; }
+  margin-top: 5px;
+  height: 100px;
+  width: 80%; }
 
 .form-name-wrap,
 .form-email-wrap,
 .form-message-wrap {
   margin-top: 10px; }
+
+.contact-form input[type="text"] {
+  height: 2.5em;
+  width: 40%; }
 
 .contact-form input[type="submit"] {
   -webkit-appearance: button;
@@ -197,7 +212,28 @@ h1 {
   cursor: pointer; }
 
 .education-skills-sec {
-  margin: 40px 0 30px 0; }
+  margin: 60px 0 50px 0; }
+
+.education-skills-sec h2 {
+  font-size: 3em; }
+
+.education {
+  margin-top: 20px; }
+
+.education li {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+  font-family: "Open Sans", sans-serif; }
+
+.skills {
+  margin-top: 40px; }
+
+.skills-table {
+  margin: 15px auto 0 auto; }
+
+.skills-table td {
+  padding: 10px;
+  font-size: 1.3em; }
 
 @media screen and (min-width: 920px) {
   .intro-objective-sec {
