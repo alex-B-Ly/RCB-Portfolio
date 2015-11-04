@@ -165,6 +165,13 @@ h1 {
   font-size: 1.4em;
   margin-bottom: 12px; }
 
+.phone::before {
+  float: left;
+  content: "";
+  background: url("IMG/phone.png") no-repeat;
+  height: 43px;
+  width: 25px; }
+
 .contact-form {
   text-align: center; }
 
